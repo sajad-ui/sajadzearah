@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: "Inter", "Georgia", serif;
+  
+  /* Map cozy variables to professional slate equivalents to support theme transition seamlessly */
+  --color-warm-cream: #f8fafc; /* slate-50 */
+  --color-book-beige: #e2e8f0; /* slate-200 */
+  --color-paper-white: #ffffff; /* pure white */
+}
+
+/* Base resets */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-warm-cream);
+  color: #0f172a; /* slate-900 */
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1; /* slate-350 */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; /* slate-400 */
+}
+

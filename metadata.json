@@ -1,0 +1,8 @@
+{
+  "name": "Remix: مكتبة جامعة العين العراقية",
+  "description": "منصة مكتبية متكاملة لجامعة العين العراقية تتيح تصفح الكتب، إدارة الرفوف الخاصة بك، وتتبع الاستعارات والمراجعات بطريقة عصرية ومصقولة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
